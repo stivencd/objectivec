@@ -10,7 +10,16 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        char *myCharacter[] = {"Juan", "Carlos", "Maria"};
+        qsort_b(myCharacter, 3, sizeof(char *), ^(const void *l, const void *r){
+            char *left = *(char **) l;
+            char *right = *(char **)r;
+            return strncmp(left, right, 1);
+        });
+        
+        for(int k=0; k<3; k++){
+            NSLog(@" value => %s", myCharacter[k]);
+        }
     }
     return 0;
 }
