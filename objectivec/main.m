@@ -120,6 +120,7 @@ int main(int argc, const char * argv[]) {
 /*
  
  https://developer.apple.com/library/archive/navigation/
+ https://iosbrain.com/blog/2018/02/01/tutorial-delegates-and-delegation-in-objective-c/
  
 https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html#//apple_ref/doc/uid/TP40011210-CH8-SW1
 https://developer.apple.com/library/archive/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationObjects/OperationObjects.html#//apple_ref/doc/uid/TP40008091-CH101
